@@ -1,10 +1,83 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #2E2F42;
+  background-color: white;
+  
+}
+h1,
+h2{
+  text-align: center;
 }
 
-a{
+h1{
+   font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+
+}
+h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 111%;
+      letter-spacing: 0.02em;
+}
+
+  
+
+ul{
+  list-style-type: none;
+}
+
+
+
+.nav-link{
+    font-weight: 500;
+    text-decoration: none;
+    color: #2E2F42;
+ }
+
+.address-link {
   text-decoration: none;
+  color: #434455;
+}
+
+.hero{
+  background-color: #2E2F42;
+  color: #FFFFFF;
+}
+
+.button-hero{
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  
+}
+
+.manifestos-title{
+  display: none;
+}
+
+.team{
+  background-color: #F4F4FD;
+}
+
+.team-card{
+  background-color: #FFFFFF;
+}
+
+
+footer {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+  
 }
 
 .logo{
@@ -15,15 +88,18 @@ a{
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #4D5AE5;
+      text-decoration: none;
+
+      
 }
 
 .logo-part-header{
 
-    color:#2E2F42;;
+    color:#2E2F42;
 }
 
 .logo-part-footer {
 
   color: #F4F4FD;
-  
+
 }
