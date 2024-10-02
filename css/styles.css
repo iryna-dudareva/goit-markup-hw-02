@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #434455;
   background-color: white;
   
 }
@@ -13,32 +13,51 @@ h2{
   text-align: center;
 }
 
-h1{
-   font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-
-}
-h2 {
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 111%;
-      letter-spacing: 0.02em;
-}
-
-  
-
-ul{
+ul {
   list-style-type: none;
 }
 
+.first-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
+
+  .list-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+    }
+  
+   .list-text {
+      color: #434455;
+    }
 
 
+.nav-link, 
 .nav-link{
     font-weight: 500;
     text-decoration: none;
     color: #2E2F42;
+ }
+ .nav-link:hover, 
+ .nav-link:focus{
+  color: #404bbf;
+ }
+
+ .address {
+   font-style: normal;
  }
 
 .address-link {
@@ -46,24 +65,33 @@ ul{
   color: #434455;
 }
 
+.address-link:hover,
+.address-link:focus{
+  color: #404bbf;
+}
+
 .hero{
   background-color: #2E2F42;
   color: #FFFFFF;
 }
 
+
 .button-hero{
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  ine-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4D5AE5;
   color: #FFFFFF;
-  
+  cursor: pointer;
 }
 
-.manifestos-title{
-  display: none;
+.button-hero:hover,
+.button-hero:focus{
+  background-color: #404BBF;
 }
+
 
 .team{
   background-color: #F4F4FD;
@@ -74,7 +102,7 @@ ul{
 }
 
 
-footer {
+.footer {
   background-color: #2E2F42;
   color: #F4F4FD;
   
